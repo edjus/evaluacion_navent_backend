@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba pedido - Navent</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="enviarPedido.js"></script>
+	<style>
+		body {
+			margin: 80px auto;
+			width: 500px;
+		}
+		h1 {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>Formulario pedido</h1>
+	<form name="formulario" id="formulario" method="post">
+		<table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" id="nombre" name="nombre" placeholder="Nombre" autofocus></td>
+            </tr>
+            <tr>
+                <td>Monto:</td>
+                <td><input type="text" id="monto" name="monto" placeholder="Monto"></td>
+            </tr>
+            <tr>
+                <td>Descuento:</td>
+                <td><input type="text" id="descuento" name="descuento" placeholder="Descuento"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="btnGuardar" id="btnGuardar" value = "Guardar">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+	<span class="respuesta"></span>
+</body>
+</html>

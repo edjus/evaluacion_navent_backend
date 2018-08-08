@@ -1,4 +1,4 @@
-# Evalaucion Navent Backend
+# Evaluación Navent Backend
 Solución de la evaluación
 
 ### 2- Suponiendo que la tabla Pedidos tiene muchos registros y columnas (algunas de ellas nullable, algunas BLOB / "binary-large-object"), que consideraciones se deberían tener en cuenta para realizar desde un sitio web consultas a la base de datos de manera eficiente?
